@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Booking Form</title>
+  <link rel="stylesheet" href="../styles/order.css">
+</head>
+
+<body>
+  <header class="hero">
+    <h1>🎊 Book Your Event</h1>
+    <p>Select your event and confirm your booking</p>
+    <span class="nail"><a href="./index.html">Go Back</a></span>
+  </header>
+  <section class="form-section">
+    <form class="booking-form">
+
+      <label for="name">Full Name<span class="required">*</span></label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="phone">Phone Number<span class="required">*</span></label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone" required>
+
+      <label for="email">Email ID<span class="required">*</span></label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="event">Select Event<span class="required">*</span></label>
+      <select id="event" name="event" required>
+        <option value="">-- Choose Event --</option>
+        <option value="marriage">💍 Marriage</option>
+        <option value="birthday">🎂 Birthday</option>
+        <option value="puberty">🌸 Puberty Function</option>
+        <option value="housewarming">🏠 House Warming</option>
+        <option value="earpiercing">👂 Ear Piercing</option>
+        <option value="reception">💐 Reception</option>
+      </select>
+
+      <label for="guests">Number of Guests<span class="required">*</span></label>
+      <input type="number" id="guests" name="guests" placeholder="e.g. 200">
+
+      <label for="date">Event Date<span class="required">*</span></label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="message">Additional Notes:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Special requests..."></textarea>
+      <div class="buttons">
+        <button type="submit"><a href="/pages/order-success.html">Submit</a></button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2025 Event Management | All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>

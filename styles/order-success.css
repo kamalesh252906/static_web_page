@@ -1,0 +1,36 @@
+    body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-decoration: none;
+      }
+      .box {
+        background: rgb(199, 86, 190);
+        padding: 40px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+      }
+      h2 {
+        color: #0077b6;
+        margin-bottom: 15px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      button {
+        background: #0077b6;
+        border: none;
+        padding: 12px 20px;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #023e8a;
+      }

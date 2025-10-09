@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Asserts/logo.jpg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(8px);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 10px 0;
+}
+
+nav {
+  color: rgb(195, 30, 210);
+  padding: 20px 0;
+}
+
+.guys {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+.guys a{
+  color: rgb(240,213,59);
+  text-decoration: none;
+}
+
+.guys a:hover {
+    color: aquamarine;
+}
+
+main {
+    color: rgb(249, 249, 246);
+    font-size: medium;
+}
+
+footer {
+  color: rgb(241, 246, 247);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content a{
+  color: rgb(243,12,235);
+  text-decoration: none;
+}
+
+.footer-content a:hover{
+  color: rgb(222, 197, 58);
+}
+
+p {
+  font-style: oblique;
+}

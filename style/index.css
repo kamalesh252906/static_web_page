@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Asserts/logo.jpg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(4px);
+  font-family: cursive;
+}
+
+header {
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.logo {
+  width: 200px;
+}
+
+.lion {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.lion li a {
+  display: block;
+  margin-top: 10px;
+  color: rgb(248, 243, 243);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.lion li a:hover {
+  color:rgb(10, 158, 158)
+}
+
+.super {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(6, 125, 85);
+  margin: 30px 0;
+  font-style: italic;
+}
+
+.mat {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.mats {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.mats img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mats a {
+  display: block;
+  margin-top: 10px;
+  color: rgb(248, 243, 243);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mats a:hover {
+  color: rgb(116, 255, 137, 0.403);
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.mine {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+}
+.mine a{
+  color:white;
+  text-decoration: none;
+}
+
+.mine a:hover{
+  color: rgb(222, 197, 58);
+}
